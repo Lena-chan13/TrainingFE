@@ -1,13 +1,28 @@
-nav ul{
-    list-style: none;
-    background: gray;
-}
-ul li{
-    display: inline-block;
-    border: 1px solid green;
+.text{
+  font-family: 'Style Script', cursive;
+  font-size: 130px;
+  text-align: center;
+  background: linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #0B2349;
 }
 .footer {
     max-width: 100px;
     height: 100px;
     margin: 0 auto;
+  }
+
+div img{
+  width: 690px;
+  height: 388px;
+  object-fit: contain;
+}
+@media only screen and (max-width: 900px) {
+    .text { 
+  background: linear-gradient(45deg, #0B3649 33%, #0D61BC 66%, #2AA9D6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #0B3649;
+    }
   }
