@@ -1,22 +1,21 @@
-a {
-    color: #808080 ; 
-    text-decoration: none;
-   }
-.youtube :hover{
-    color:#c4302b;   
+ul{
+    width: 600px;
 }
-.facebook :hover{
-    color: #3b5998;   
+li{
+    display: inline-block; 
+    width: 170px;
+    height: 42px;
+    margin: 0 5px 5px 0;
+    border: 1px solid #cbcbcb;
+    padding: 3px;
+    background-color: #eeeeee;
 }
-.pinterest :hover{
-    color: #c8232c ;   
+span{
+    position: relative;
+    top:25%; left:50%;
 }
-.instagram :hover{
-    color: transparent;
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-    background-clip: text;
-    -webkit-background-clip: text;
+ul li:nth-child(3), ul li:nth-child(7) {
+    background-color: #ccffaa;
 }
 .footer {
     max-width: 100px;

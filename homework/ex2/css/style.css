@@ -1,0 +1,17 @@
+li{
+    list-style-type: square;
+}
+ul li:nth-child(1) {
+    font-family: 'Space Grotesk', serif;
+    color: #e81a60;
+    font-weight: bold;
+}
+ul li:nth-child(5) {
+    color: #4caf50;
+    font-family: 'Comic Neue', cursive;
+}
+.footer {
+    max-width: 100px;
+    height: 100px;
+    margin: 0 auto;
+  }
