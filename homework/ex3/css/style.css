@@ -1,24 +1,63 @@
-ul{
-    width: 600px;
-}
-li{
-    display: inline-block; 
-    width: 170px;
-    height: 42px;
-    margin: 0 5px 5px 0;
-    border: 1px solid #cbcbcb;
-    padding: 3px;
-    background-color: #eeeeee;
-}
-span{
+* {
     position: relative;
-    top:25%; left:50%;
-}
-ul li:nth-child(3), ul li:nth-child(7) {
-    background-color: #ccffaa;
-}
-.footer {
-    max-width: 100px;
-    height: 100px;
-    margin: 0 auto;
-  }
+   } 
+   .red__item::after {
+       content: ''; 
+       position: absolute;
+       left: 60px; bottom: -60px;
+       border: 40px solid transparent;
+       border-bottom: 40px solid red;
+   }
+   .red__item2::after {
+       content: ''; 
+       position: absolute; 
+       left: 140px; bottom: -100px; 
+       border: 40px solid transparent;
+       border-top: 40px solid red;
+   }
+   .green__item::after {
+       content: ''; 
+       position: absolute;
+       left: 260px; bottom: -80px;
+       border: 40px solid transparent;
+       border-left: 40px solid green;
+   }
+   .green__item2::after {
+       content: ''; 
+       position: absolute; 
+       left: 280px; bottom: -80px; 
+       border: 40px solid transparent;
+       border-right: 40px solid green;
+   }
+   .yellow__item::after {
+       content: ''; 
+       position: absolute;
+       left: 60px; bottom: -150px;
+       border: 30px solid transparent; 
+       border-bottom: 30px solid yellow; 
+       border-left: 30px solid yellow;
+   }
+   .yellow__item2::after {
+       content: ''; 
+       position: absolute; 
+       left: 160px; bottom: -160px; 
+       border: 30px solid transparent; 
+       border-right: 30px solid yellow; 
+       border-bottom: 30px solid yellow;
+   }
+   .blue__item::after {
+       content: ''; 
+       position: absolute;
+       left: 260px; bottom: -160px;
+       border: 30px solid transparent; 
+       border-left: 30px solid blue; 
+       border-top: 30px solid blue;
+   }
+   .blue__item2::after {
+       content: ''; 
+       position: absolute; 
+       left: 340px; bottom: -160px; 
+       border: 30px solid transparent; 
+       border-top: 30px solid blue; 
+       border-right: 30px solid blue;
+   }

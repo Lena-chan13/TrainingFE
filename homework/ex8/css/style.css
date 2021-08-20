@@ -1,0 +1,28 @@
+.box{
+    background-color: gray;
+    text-transform: uppercase;
+    width: 500px;
+    height: 200px;
+    margin: 0 auto;
+}
+.box div{
+   width: 200px;
+   display: inline-block;
+   text-align: center;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 40px;
+   font-style: italic;
+   font-weight: bold;
+   padding-top: 30px;
+   margin: 20px;
+   color: gray;
+   text-shadow: 1px 1px 5px black;
+}
+#text {
+    text-shadow: 3px 3px 10px black;
+}
+.footer {
+    max-width: 100px;
+    height: 100px;
+    margin: 0 auto;
+  }

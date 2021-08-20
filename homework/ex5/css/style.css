@@ -1,28 +1,24 @@
-a{
-    margin-bottom: 20px;
+ul{
+    width: 600px;
 }
-.parent{
-    background-color: gray;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    overflow: auto;
+li{
+    display: inline-block; 
+    width: 170px;
+    height: 42px;
+    margin: 0 5px 5px 0;
+    border: 1px solid #cbcbcb;
+    padding: 3px;
+    background-color: #eeeeee;
 }
-.text{
-    background-color: white;
-    width: 350px;
-    height: 130px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: -125px 0 0 -125px;
-border: 2px solid  red;
-border-radius: 5px;
-text-align: center;
-}
-.text__1{
+span{
     position: relative;
-    border-bottom: 2px solid gray;
+    top:25%; left:50%;
 }
+ul li:nth-child(3), ul li:nth-child(7) {
+    background-color: #ccffaa;
+}
+.footer {
+    max-width: 100px;
+    height: 100px;
+    margin: 0 auto;
+  }

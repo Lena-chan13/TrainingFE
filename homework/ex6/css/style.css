@@ -1,0 +1,22 @@
+q span{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.text{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+}
+  q::before {
+    content: "«";
+    color: blue;
+  }
+  q::after {
+    content: "»";
+    color: red;
+  }
+.footer {
+    max-width: 100px;
+    height: 100px;
+    margin: 0 auto;
+  }
